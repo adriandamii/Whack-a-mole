@@ -1,0 +1,25 @@
+#container {
+    font-size: 100px;
+    width: 1000px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -100px; 
+}
+#moleCap0, #moleCap1, #moleCap2, #moleCap3, #moleCap4, #moleCap5 {
+    margin-bottom: -45px;
+    color: white;
+}
+
+#startButton {
+    margin-top: 350px;
+}
+
+ #responsiveText {
+    margin-top:300px; 
+}
+
+#responsiveText {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
